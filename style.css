@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* #news{
+    grid-template-columns: repeat(auto-fit,minmax(400,1fr));
+} */
+#news > div>div {
+    overflow: hidden;
+   
+    padding: .5em;
+    
+    
+    text-align: center;
+    box-shadow: 0.4em 0.4em 0.4em yellowgreen;
+  }
